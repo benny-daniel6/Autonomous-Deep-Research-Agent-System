@@ -22,17 +22,7 @@
 
 ---
 
-<!-- 
-  🎬 DEMO GIF — Replace the placeholder below with your recorded GIF.
-  Record with ScreenToGif: https://www.screentogif.com/
-  Steps:
-    1. Start the FastAPI backend: python -m research_agent.main
-    2. Start Streamlit: streamlit run research_agent/streamlit_app.py
-    3. Record yourself typing a query and watching the report render.
-    4. Export as GIF → save to assets/demo.gif
-    5. Uncomment the line below and delete this comment block.
--->
-<!-- <p align="center"><img src="assets/demo.gif" width="800" alt="Demo — research agent processing a query end-to-end" /></p> -->
+<p align="center"><img src="assets/demo.gif" width="800" alt="Demo — research agent processing a query end-to-end" /></p>
 
 ## ✨ What Is This?
 
