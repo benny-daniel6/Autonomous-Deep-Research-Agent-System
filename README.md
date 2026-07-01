@@ -278,5 +278,5 @@ Run `python -m research_agent.benchmark.run_benchmark` to reproduce. Results are
 ---
 
 <p align="center">
-  Built by <a href="https://github.com/benny-daniel6">Benny Daniel</a> · 2026
+  Built by <a href="https://github.com/benny-daniel6">Benny Daniel Paul</a> · 2026
 </p>
