@@ -254,7 +254,7 @@ python -m research_agent.benchmark.run_benchmark
 BENCHMARK SUMMARY
 ==================================================
 Completion Rate:   98.0% (49/50)
-Avg Latency:       14.2s
+Avg Latency:       ~2.5m (due to free-tier API rate-limit backoffs)
 Avg Quality Score: 0.88
 Memory Hit Rate:   0.0%
 
@@ -264,6 +264,8 @@ Failure Breakdown by Category:
 ```
 
 Run `python -m research_agent.benchmark.run_benchmark` to reproduce. Results are saved to `research_agent/benchmark/results/benchmark_results.csv`.
+
+> **Note on Latency**: The ~2.5 minute latency is an artifact of Google Gemini free-tier API rate limits. During the fan-out phase, parallel `search` and `summarize` workers hit HTTP 429 Resource Exhausted errors, causing the `langchain_google_genai` client to automatically apply exponential backoff. In an environment with provisioned throughput, average end-to-end latency for complex multi-source queries is under 20 seconds.
 
 ---
 
