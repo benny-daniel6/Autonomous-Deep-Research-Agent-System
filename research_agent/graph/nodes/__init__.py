@@ -11,7 +11,7 @@ import os
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-_LLM_MODEL = "gemini-2.5-flash-lite-preview-06-17"
+_LLM_MODEL = "gemini-2.5-flash-lite"
 
 
 def get_llm(temperature: float = 0.0) -> ChatGoogleGenerativeAI:
