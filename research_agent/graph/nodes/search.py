@@ -34,7 +34,7 @@ from research_agent.tools.wikipedia_tool import wikipedia_search
 
 logger = logging.getLogger(__name__)
 
-_EMBEDDING_MODEL = "models/embedding-001"
+_EMBEDDING_MODEL = "models/text-embedding-004"
 
 
 # ── Cosine similarity (no numpy dependency) ─────────────────────────────────

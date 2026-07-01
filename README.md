@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/LangGraph-Orchestration-FF6F00?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gemini_2.0_Flash-LLM-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gemini_2.5_Flash_Lite-LLM-4285F4?style=for-the-badge&logo=google&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/ChromaDB-Memory-FF4081?style=for-the-badge&logo=databricks&logoColor=white" />
 </p>
@@ -108,7 +108,7 @@ The system **self-corrects**. When the Critic returns `REVISE`, it sends feedbac
 | Component | Technology | Why |
 |:---|:---|:---|
 | **Orchestration** | LangGraph `StateGraph` | Deterministic cyclic graphs, `Send()` fan-out, conditional edges |
-| **LLM** | Gemini 2.0 Flash | Fast structured output via `with_structured_output()` |
+| **LLM** | Gemini 2.5 Flash Lite | Fast structured output via `with_structured_output()` |
 | **Search** | Tavily + Wikipedia | Tavily for speed, Wikipedia as a robust fallback |
 | **Memory** | ChromaDB (persistent) | Semantic caching with cosine similarity retrieval |
 | **Validation** | Pydantic v2 | Type-safe state mutations, zero free-form LLM parsing |

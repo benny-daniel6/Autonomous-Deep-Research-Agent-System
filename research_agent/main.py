@@ -21,7 +21,8 @@ from research_agent.memory.chroma_store import get_memory_store
 from research_agent.models.schemas import Report
 
 # Load environment variables (API keys)
-load_dotenv()
+_ENV_PATH = Path(__file__).resolve().parent / ".env"
+load_dotenv(_ENV_PATH)
 
 logging.basicConfig(
     level=logging.INFO,

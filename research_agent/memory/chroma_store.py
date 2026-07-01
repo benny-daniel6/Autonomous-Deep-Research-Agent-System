@@ -33,7 +33,7 @@ logger = logging.getLogger(__name__)
 _DEFAULT_COLLECTION = "research_reports"
 _DEFAULT_PERSIST_DIR = "./chroma_data"
 _DEFAULT_SIMILARITY_THRESHOLD = 0.85
-_EMBEDDING_MODEL = "models/embedding-001"
+_EMBEDDING_MODEL = "models/text-embedding-004"
 
 # ── Singleton ───────────────────────────────────────────────────────────────
 
