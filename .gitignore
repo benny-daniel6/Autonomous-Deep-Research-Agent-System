@@ -33,3 +33,4 @@ Thumbs.db
 # Benchmark results (keep the directory, ignore generated CSVs)
 # Uncomment below if you don't want to commit benchmark results:
 # research_agent/benchmark/results/*.csv
+.txt

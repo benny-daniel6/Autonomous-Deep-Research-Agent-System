@@ -22,7 +22,7 @@
 
 ---
 
-<p align="center"><img src="assets/demo.gif" width="800" alt="Demo — research agent processing a query end-to-end" /></p>
+<p align="center"><img src="assets/demo1.gif" width="800" alt="Demo — research agent processing a query end-to-end" /></p>
 
 ## ✨ What Is This?
 
